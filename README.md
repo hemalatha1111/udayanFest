@@ -17,6 +17,8 @@ https://drive.google.com/file/d/1nCa9T-_qGSALfSApePw9mdbn_ztvR5Aq/view?usp=shari
 <img width="1920" height="1080" alt="Screenshot (234)" src="https://github.com/user-attachments/assets/e8d0a8ad-d6f3-49a9-953d-5b65c50d3c5c" />
 
 **Mobile**
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/ff3cc83e-ad94-4632-be23-c401da97edf4" />
+
 
 ## ✨ Features
 
