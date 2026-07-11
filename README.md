@@ -13,7 +13,8 @@ https://drive.google.com/file/d/1nCa9T-_qGSALfSApePw9mdbn_ztvR5Aq/view?usp=shari
 
 
 **Desktop**
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e91fd022-06b0-4d12-9997-4800317a723d" />
+
+<img width="1920" height="1080" alt="Screenshot (234)" src="https://github.com/user-attachments/assets/e8d0a8ad-d6f3-49a9-953d-5b65c50d3c5c" />
 
 **Mobile**
 
