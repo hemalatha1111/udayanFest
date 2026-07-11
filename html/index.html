@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UDAYAN 2026 — Aditya University Fest</title>
+    <meta
+      name="description"
+      content="UDAYAN 2026 — Aditya University's annual fest. Where ideas take root. July 10–11, 2026."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- ============ NOISE / GRAIN OVERLAY ============ -->
+    <div class="grain" aria-hidden="true"></div>
+
+    <!-- ============ HEADER ============ -->
+    <header class="site-header" id="siteHeader">
+      <div class="wrap header-inner">
+        <a href="#top" class="logo">
+          <span class="logo-mark" aria-hidden="true">
+            <svg
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="20"
+                cy="20"
+                r="18"
+                stroke="currentColor"
+                stroke-width="1.2"
+                opacity="0.35"
+              />
+              <circle
+                cx="20"
+                cy="20"
+                r="12"
+                stroke="currentColor"
+                stroke-width="1.2"
+                opacity="0.6"
+              />
+              <circle cx="20" cy="20" r="6" fill="currentColor" />
+            </svg>
+          </span>
+          <span class="logo-text"
+            >UDAYAN<span class="logo-year">'26</span></span
+          >
+        </a>
+
+        <nav class="main-nav" id="mainNav">
+          <a href="#events">Arenas</a>
+          <a href="#schedule">Timeline</a>
+          <a href="#sponsors">Rooted&nbsp;By</a>
+          <a href="#contact">Organizers</a>
+        </nav>
+
+        <div class="header-actions">
+          <a href="#register" class="btn btn-primary btn-small">Register Now</a>
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- ============ HERO ============ -->
+      <section class="hero" id="hero">
+        <div class="hero-contours" aria-hidden="true">
+          <svg viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+            <circle cx="600" cy="450" r="120" class="ring r1" />
+            <circle cx="600" cy="450" r="220" class="ring r2" />
+            <circle cx="600" cy="450" r="320" class="ring r3" />
+            <circle cx="600" cy="450" r="420" class="ring r4" />
+            <circle cx="600" cy="450" r="520" class="ring r5" />
+          </svg>
+        </div>
+
+        <div class="wrap hero-inner">
+          <p class="eyebrow">Aditya University · July 10&ndash;11, 2026</p>
+          <h1 class="hero-title">
+            <span class="hero-title-line">Where ideas</span>
+            <span class="hero-title-line hero-title-accent">take root.</span>
+          </h1>
+          <p class="hero-sub">
+            UDAYAN — dawn, in Sanskrit. Two days, one campus, and every
+            discipline breaking ground at once: code, sound, movement, and
+            ambition, all planted in the same soil.
+          </p>
+          <div class="hero-actions">
+            <a href="#register" class="btn btn-primary">Register Now</a>
+            <a href="#events" class="btn btn-ghost">See the Arenas ↓</a>
+          </div>
+        </div>
+
+        <div class="hero-image" aria-hidden="true">
+          <img
+            src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1600&q=80"
+            alt=""
+          />
+          <div class="hero-image-fade"></div>
+        </div>
+      </section>
+
+      <!-- ============ COUNTDOWN ============ -->
+      <section class="countdown-section" id="countdown">
+        <div class="wrap">
+          <p class="section-eyebrow">Countdown to Dawn</p>
+          <div class="countdown-grid" id="countdownGrid">
+            <div class="count-block">
+              <span class="count-num" id="cd-days">00</span>
+              <span class="count-label">Days</span>
+            </div>
+            <div class="count-sep">:</div>
+            <div class="count-block">
+              <span class="count-num" id="cd-hours">00</span>
+              <span class="count-label">Hours</span>
+            </div>
+            <div class="count-sep">:</div>
+            <div class="count-block">
+              <span class="count-num" id="cd-mins">00</span>
+              <span class="count-label">Minutes</span>
+            </div>
+            <div class="count-sep">:</div>
+            <div class="count-block">
+              <span class="count-num" id="cd-secs">00</span>
+              <span class="count-label">Seconds</span>
+            </div>
+          </div>
+          <p class="countdown-note" id="countdownNote">
+            Gates open July 10, 2026 · Aditya University Campus
+          </p>
+        </div>
+      </section>
+
+      <!-- ============ EVENTS ============ -->
+      <section class="events-section" id="events">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="section-eyebrow">The Arenas</p>
+            <h2 class="section-title">Six grounds. One fest.</h2>
+            <p class="section-desc">
+              Pick your arena, or run all six. Every event is built and judged
+              by people who live in that world.
+            </p>
+          </div>
+
+          <div class="events-grid">
+            <article class="event-card">
+              <div class="event-card-img">
+                <img
+                  src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80"
+                  alt="Students coding together at a hackathon"
+                />
+              </div>
+              <div class="event-card-body">
+                <span class="event-tag">Build</span>
+                <h3>Hackathon</h3>
+                <p>
+                  24 hours, one problem statement, and a team of four. Ship a
+                  working prototype before sunrise.
+                </p>
+              </div>
+            </article>
+
+            <article class="event-card">
+              <div class="event-card-img">
+                <img
+                  src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80"
+                  alt="Close up of code on a laptop screen"
+                />
+              </div>
+              <div class="event-card-body">
+                <span class="event-tag">Compete</span>
+                <h3>Coding Contest</h3>
+                <p>
+                  Timed algorithmic rounds, live leaderboard, and a final boss
+                  problem that separates the podium from the rest.
+                </p>
+              </div>
+            </article>
+
+            <article class="event-card">
+              <div class="event-card-img">
+                <img
+                  src="https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&w=800&q=80"
+                  alt="Dancers performing on stage under stage lights"
+                />
+              </div>
+              <div class="event-card-body">
+                <span class="event-tag">Perform</span>
+                <h3>Dance Battle</h3>
+                <p>
+                  Solo and crew rounds across freestyle and choreography. Judged
+                  on the main stage, in front of the whole fest.
+                </p>
+              </div>
+            </article>
+
+            <article class="event-card">
+              <div class="event-card-img">
+                <img
+                  src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?auto=format&fit=crop&w=800&q=80"
+                  alt="Gamers playing on PCs with RGB lighting"
+                />
+              </div>
+              <div class="event-card-body">
+                <span class="event-tag">Play</span>
+                <h3>Gaming Arena</h3>
+                <p>
+                  LAN tournaments across your favourite titles, bracket-style,
+                  with a big screen for the finals.
+                </p>
+              </div>
+            </article>
+
+            <article class="event-card">
+              <div class="event-card-img">
+                <img
+                  src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80"
+                  alt="Team presenting a startup pitch to a panel"
+                />
+              </div>
+              <div class="event-card-body">
+                <span class="event-tag">Pitch</span>
+                <h3>Startup Pitch</h3>
+                <p>
+                  Eight minutes to pitch, seven to defend it. A panel of
+                  founders and investors decides who's fundable.
+                </p>
+              </div>
+            </article>
+
+            <article class="event-card">
+              <div class="event-card-img">
+                <img
+                  src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=800&q=80"
+                  alt="Live band performing music on an outdoor stage"
+                />
+              </div>
+              <div class="event-card-body">
+                <span class="event-tag">Headline</span>
+                <h3>Battle of Bands</h3>
+                <p>
+                  Campus bands go head to head for the closing-night slot, right
+                  before the fest's headline act.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SCHEDULE ============ -->
+      <section class="schedule-section" id="schedule">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="section-eyebrow">The Timeline</p>
+            <h2 class="section-title">Two days, laid out.</h2>
+            <p class="section-desc">
+              A rough map so you can plan your fest — exact rooms and stages go
+              up on the app closer to the date.
+            </p>
+          </div>
+
+          <div class="schedule-tabs" id="scheduleTabs">
+            <button class="tab-btn is-active" data-day="1">
+              Day One · Jul 20
+            </button>
+            <button class="tab-btn is-active" data-day="2">
+              Day Two · Jul 21
+            </button>
+          </div>
+
+          <div class="schedule-panel is-active" data-day-panel="1">
+            <ol class="timeline">
+              <li>
+                <span class="tl-time">9:00 AM</span><span class="tl-dot"></span>
+                <div class="tl-body">
+                  <h4>Opening Ceremony</h4>
+                  <p>Main Lawn — welcome address and fest kickoff.</p>
+                </div>
+              </li>
+              <li>
+                <span class="tl-time">10:30 AM</span
+                ><span class="tl-dot"></span>
+                <div class="tl-body">
+                  <h4>Hackathon Begins</h4>
+                  <p>Tech Block — 24-hour build window opens.</p>
+                </div>
+              </li>
+              <li>
+                <span class="tl-time">11:00 AM</span
+                ><span class="tl-dot"></span>
+                <div class="tl-body">
+                  <h4>Coding Contest — Round 1</h4>
+                  <p>Computer Labs — qualifiers.</p>
+                </div>
+              </li>
+              <li>
+                <span class="tl-time">2:00 PM</span><span class="tl-dot"></span>
+                <div class="tl-body">
+                  <h4>Startup Pitch — Prelims</h4>
+                  <p>Seminar Hall — 5-minute pitches.</p>
+                </div>
+              </li>
+              <li>
+                <span class="tl-time">4:00 PM</span><span class="tl-dot"></span>
+                <div class="tl-body">
+                  <h4>Gaming Arena Opens</h4>
+                  <p>Indoor Stadium — bracket play begins.</p>
+                </div>
+              </li>
+              <li>
+                <span class="tl-time">7:00 PM</span><span class="tl-dot"></span>
+                <div class="tl-body">
+                  <h4>Dance Battle — Solo Rounds</h4>
+                  <p>Main Stage — freestyle knockouts.</p>
+                </div>
+              </li>
+              <li>
+                <span class="tl-time">9:30 PM</span><span class="tl-dot"></span>
+                <div class="tl-body">
+                  <h4>Night One Wrap</h4>
+                  <p>Main Lawn — open floor + food stalls.</p>
+                </div>
+              </li>
+            </ol>
+          </div>
+
+          <div class="schedule-panel" data-day-panel="2">
+            <ol class="timeline">
+              <li>
+                <span class="tl-time">9:00 AM</span><span class="tl-dot"></span>
+                <div class="tl-body">
+                  <h4>Hackathon Submissions Close</h4>
+                  <p>Tech Block — final builds locked.</p>
+                </div>
+              </li>
+              <li>
+                <span class="tl-time">11:00 AM</span
+                ><span class="tl-dot"></span>
+                <div class="tl-body">
+                  <h4>Hackathon Demos + Judging</h4>
+                  <p>Tech Block — teams present live.</p>
+                </div>
+              </li>
+              <li>
+                <span class="tl-time">12:00 PM</span
+                ><span class="tl-dot"></span>
+                <div class="tl-body">
+                  <h4>Startup Pitch — Finals</h4>
+                  <p>Seminar Hall — top 8 pitch to the panel.</p>
+                </div>
+              </li>
+              <li>
+                <span class="tl-time">2:00 PM</span><span class="tl-dot"></span>
+                <div class="tl-body">
+                  <h4>Dance Battle — Crew Finals</h4>
+                  <p>Main Stage — full crew showdown.</p>
+                </div>
+              </li>
+              <li>
+                <span class="tl-time">4:00 PM</span><span class="tl-dot"></span>
+                <div class="tl-body">
+                  <h4>Gaming Arena Finals</h4>
+                  <p>Indoor Stadium — grand finale on the big screen.</p>
+                </div>
+              </li>
+              <li>
+                <span class="tl-time">6:00 PM</span><span class="tl-dot"></span>
+                <div class="tl-body">
+                  <h4>Battle of Bands</h4>
+                  <p>Main Stage — campus bands compete.</p>
+                </div>
+              </li>
+              <li>
+                <span class="tl-time">8:00 PM</span><span class="tl-dot"></span>
+                <div class="tl-body">
+                  <h4>Prize Distribution + Headline Act</h4>
+                  <p>Main Lawn — winners announced, closing show.</p>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SPONSORS MARQUEE ============ -->
+      <section class="sponsors-section" id="sponsors">
+        <div class="wrap">
+          <p class="section-eyebrow section-eyebrow-light">Rooted By</p>
+          <h2 class="section-title section-title-light">
+            Our Sponsors &amp; Partners
+          </h2>
+        </div>
+
+        <div class="marquee" role="img" aria-label="Sponsor and partner logos">
+          <div class="marquee-track">
+            <span class="sponsor-badge">NORTHPEAK&nbsp;TECH</span>
+            <span class="sponsor-badge">RIVERBED&nbsp;FOODS</span>
+            <span class="sponsor-badge">ORBITAL&nbsp;LABS</span>
+            <span class="sponsor-badge">CLAYSTONE&nbsp;BANK</span>
+            <span class="sponsor-badge">GREENFIELD&nbsp;MEDIA</span>
+            <span class="sponsor-badge">ATLAS&nbsp;MOBILITY</span>
+            <span class="sponsor-badge">PINEWOOD&nbsp;APPAREL</span>
+            <span class="sponsor-badge">SUNRISE&nbsp;CAFES</span>
+            <!-- duplicate set for seamless loop -->
+            <span class="sponsor-badge" aria-hidden="true"
+              >NORTHPEAK&nbsp;TECH</span
+            >
+            <span class="sponsor-badge" aria-hidden="true"
+              >RIVERBED&nbsp;FOODS</span
+            >
+            <span class="sponsor-badge" aria-hidden="true"
+              >ORBITAL&nbsp;LABS</span
+            >
+            <span class="sponsor-badge" aria-hidden="true"
+              >CLAYSTONE&nbsp;BANK</span
+            >
+            <span class="sponsor-badge" aria-hidden="true"
+              >GREENFIELD&nbsp;MEDIA</span
+            >
+            <span class="sponsor-badge" aria-hidden="true"
+              >ATLAS&nbsp;MOBILITY</span
+            >
+            <span class="sponsor-badge" aria-hidden="true"
+              >PINEWOOD&nbsp;APPAREL</span
+            >
+            <span class="sponsor-badge" aria-hidden="true"
+              >SUNRISE&nbsp;CAFES</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ REGISTER CTA ============ -->
+      <section class="register-section" id="register">
+        <div class="wrap register-inner">
+          <p class="section-eyebrow section-eyebrow-light">Registration</p>
+          <h2 class="register-title">Claim your ground before it fills up.</h2>
+          <p class="register-desc">
+            Entry passes cover both days and every arena. Team events need one
+            registration per team — details are sent to your email on sign-up.
+          </p>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=hemanatte1@gmail.com&su=UDAYAN%202026%20Registration&body=Hi%20Hema%2C%0A%0AI%27d%20like%20to%20register%20for%20UDAYAN%202026.%0A%0AName%3A%20%0ACollege%20ID%2FRoll%20No%3A%20%0ABranch%20%26%20Year%3A%20%0APhone%20Number%3A%20%0AEvent(s)%20I%27m%20registering%20for%3A%20%0ATeam%20members%20(if%20any)%3A%20%0A%0AThanks!"
+            class="btn btn-primary btn-large"
+            id="registerBtn"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Register via Gmail</a
+          >
+          <p class="register-fineprint">
+            Opens a pre-filled email to the fest organizer · Early-bird passes
+            close one week before the fest.
+          </p>
+        </div>
+      </section>
+
+      <!-- ============ ORGANIZER / CONTACT ============ -->
+      <section class="contact-section" id="contact">
+        <div class="wrap">
+          <p class="section-eyebrow">Organizers</p>
+          <div class="contact-card">
+            <div class="contact-avatar" aria-hidden="true">HN</div>
+            <div class="contact-info">
+              <h3>Hema Natte</h3>
+              <p class="contact-role">
+                Event Manager, UDAYAN 2026 · Aditya University Fest Committee
+              </p>
+              <div class="contact-links">
+                <a href="mailto:hemanatte1@gmail.com">hemanatte1@gmail.com</a>
+                <a href="tel:+919876543210">+91 98765 43210</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <div class="footer-brand">
+          <span class="logo-text"
+            >UDAYAN<span class="logo-year">'26</span></span
+          >
+          <p>Aditya University · July 10&ndash;11, 2026</p>
+        </div>
+        <nav class="footer-nav">
+          <a href="#events">Arenas</a>
+          <a href="#schedule">Timeline</a>
+          <a href="#sponsors">Sponsors</a>
+          <a href="#contact">Organizers</a>
+        </nav>
+        <div class="footer-social" aria-label="Social links">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="LinkedIn">IN</a>
+          <a href="#" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+      <div class="wrap footer-bottom">
+        <p>&copy; 2026 UDAYAN, Aditya University. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <a href="#register" class="mobile-cta">Register Now</a>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
